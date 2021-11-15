@@ -1,0 +1,7 @@
+version: '3'
+services:
+  websocket-node-repeater: 
+    build:
+      context: .
+    ports: 
+    - "3080:8080"
